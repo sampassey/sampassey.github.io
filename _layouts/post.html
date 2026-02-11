@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+<span class="blog-date">{{ page.date | date: "%B %-d, %Y" }}</span>
+
+{{ content }}
+
+<p><small><a href="{{ '/blog' | relative_url }}">Back to blog</a></small></p>
