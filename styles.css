@@ -1,133 +1,84 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.5;
+    font-size: 15px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-    border-bottom: 1px solid #ddd;
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
 }
 
-header h1 {
-    font-size: 2rem;
-    color: #333;
+h2 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+h3 {
+    font-size: 15px;
+    margin-top: 12px;
+    margin-bottom: 5px;
 }
 
-nav ul li {
-    margin: 0;
+a {
+    color: #0000EE;
 }
 
-nav ul li a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    transition: background 0.3s ease;
+a:visited {
+    color: #551A8B;
 }
 
-nav ul li a:hover {
-    background: #50b3a2;
-    color: #fff;
-    border-radius: 5px;
+nav {
+    margin: 8px 0;
+    font-size: 15px;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 70vh;
-    padding: 2rem;
+nav a {
+    margin: 0 3px;
 }
 
-.bio {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
-    width: 100%;
+hr {
+    border: none;
+    border-top: 1px solid #999999;
+    margin: 15px 0;
 }
 
-.profile {
-    display: flex;
-    gap: 2rem;
-    align-items: flex-start;
-    margin-bottom: 2rem;
+ul {
+    margin: 5px 0;
+    padding-left: 25px;
 }
 
-.profile-photo {
-    border-radius: 5px;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 1rem;
+li {
+    margin-bottom: 4px;
 }
 
-.contact-info {
-    flex: 1;
+img {
+    border: 1px solid #cccccc;
 }
 
-.contact-info h2 {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+table {
+    border-collapse: collapse;
 }
 
-.contact-info p {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
+p {
+    margin: 8px 0;
 }
 
-.contact-info a {
-    color: #50b3a2;
-    text-decoration: none;
-    transition: color 0.3s ease;
+small {
+    color: #666666;
 }
 
-.contact-info a:hover {
-    color: #333;
-    text-decoration: underline;
+.blog-date {
+    color: #666666;
+    font-size: 13px;
 }
 
-.details h2 {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-}
-
-.details p {
-    margin-bottom: 1.5rem;
-    font-size: 1.1rem;
-    color: #555;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px;
-    font-size: 0.9rem;
+.blog-post {
+    margin-bottom: 30px;
 }
