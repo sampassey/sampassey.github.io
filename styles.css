@@ -60,8 +60,6 @@ li {
 
 img {
     border: 1px solid #cccccc;
-    max-width: 100%;
-    height: auto;
 }
 
 table {
@@ -83,14 +81,4 @@ small {
 
 .blog-post {
     margin-bottom: 30px;
-}
-
-@media (max-width: 500px) {
-    table, tr, td {
-        display: block;
-        width: 100%;
-    }
-    td {
-        padding-right: 0 !important;
-    }
 }
